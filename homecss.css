@@ -1,0 +1,181 @@
+.page
+{
+	  background-image:url('pics/gettyimages-1024810748-2048x2048.jpg');
+	width:1340px;
+	height:auto;
+	border-style:groove;
+}
+.header
+{
+	width:1330px;
+	height:170px;
+	border-style:groove;
+	background-image:url('pics/Picture.png');
+	background-repeat:no-repeat;
+}
+.links
+{
+	width:1330px;
+	height:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:grey;
+	border-style:groove;
+	
+}
+.links a{
+	color:white;
+	font-family:castellar;
+	text-decoration:none;
+}
+.links a:hover
+{
+	background-color:black;
+	color:white;
+	padding:0px 4px;
+	
+}
+
+
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  width :1330px;
+  height:500px;
+  border-style:groove;
+ margin-top:10px;
+}
+
+/* Hide the images by default */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top:200px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.body
+{
+	
+	width:1330px;
+	height:750px;
+	border-style:groove;
+	margin-top:5px;
+
+}
+.body .imagepart
+{width:900px;
+	height:700px;
+	border-style:groove;
+	color:black;
+	font-family:bragley hand ITC;
+	display:inline-block;
+}
+.body .newspart h2
+{
+	color:blue;
+	margin-left:100px;
+	}
+
+.body .newspart 
+{
+	width:418px;
+height:700px;
+border-style:groove;
+float:right;
+}
+.body .newspart .news 
+{
+	width:418px;
+	height:500px;
+}
+.body .newspart h1
+{
+	margin-left:45px;
+	color:red;
+}
+.body .newspart .news h4
+{
+	color:blue;
+}
+
+.footer
+{
+width:1330px;
+	height:45px;
+	margin-top:5px;
+	background-color:blue;
+	font-family:castellar;
+	border-style:groove;
+	color:white;
+	text-decoration:bold;
+}
+p{
+	color:white;
+	font-family:lucida calligraphy;
+	font-size:13px;
+}

@@ -1,0 +1,129 @@
+<html>
+<head><title>HOMEPAGE</title>
+<link rel="stylesheet" type="text/css" href="homecss.css"</link>
+</head>
+<body>
+<div class="page">
+<div class="header"></div>
+<div class="links">
+<center>
+<a href="home.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="registration.html">REGISTRATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="admission.html">ADMISSION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="facility.html">FACILITIES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="gallary.html">GALLARY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="contactus.html">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </center>
+</div>
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="pics/h1.png" width="1330px" height="500px">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="pics/2.jpg" width="1330px" height="500px">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="pics/04.png" width="1330px" height="500px">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="pics/h44.jpg" width="1330px" height="500px">
+  </div>
+<div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="pics/h5.jpg" width="1330px" height="500px">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev"onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next"onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot"onclick="currentSlide(1)"></span> 
+  <span class="dot"onclick="currentSlide(2)"></span> 
+  <span class="dot"onclick="currentSlide(3)"></span> 
+  <span class="dot"onclick="currentSlide(4)"></span> 
+<span class="dot"onclick="currentSlide(5)"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i<slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex>slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="body">
+ <div class="imagepart">
+ <center><img src="pics/chairman.png">
+<p>
+   Prof. Dr.K.C Jha Principle
+Marwari College,Bhagalpur offers education from the Intermedaite- level to the under-Graduate level in all streams viz. science, humanities, social science, commerce and fine arts from the regular courses. The courses of colleges are national standard based on UGC model curriculum. Seminars, Symposium, Conference, interaction, Project and team-work are common features of the institution. The college is well equipped and providing high quality teaching, fair examination
+
+The college has the system of assessing students to identify the gaps in learning before starting of the tea.
+The courses of colleges are of national standard based on UGC model curriculum. Seminars, Symposium, Confere
+</p>
+<img src="pics/Arvind sir.png">
+<p>Dr.Arvind kumar Sah
+Co-ordinator Director
+Dr.Arvind kumar Sah, Marwari College Bhagalpur Institutions  &Marwari College Bsc-IT Department is an embodiment of all virtues playing a greater role in transforming every man both domestically and professionally into a multi-tasking man in all aspects. She used to motivate young girls to achieve their goals in all possible walks of life. As a father, she extends her sympathetic disposition to all the children of our institution. Having a broad outlook, she initiates plenty of good avenues for men. As the lady who has got the competence to guide men aspirants, she is also quite supportive in all endeavours of our beloved Co-ordinator, the real woman behind the successful man.
+</p> 
+ </div>
+   <div class="newspart">
+   <h1>NOTIFICATION</h1>
+     <h2>NEWS & EVENTS </h2><hr>
+		<div class="news">
+			<marquee direction="up" height="100%">
+			<h4> BIT ADDMISSION </h4><br>
+			<p>Addmission start of the academic year 2022-2025</p>
+			<p>End semester exaxmination question papers</p>
+			<p>end semester examinations answer key with scheme of valuatuin</p>
+				<hr>
+				<!--<h4>CELEBRATIONS</h4><br>
+				<p>pongal 2020</p>
+				<p>autha poja 2019</p>
+				<p>cultural 2019</p>
+				<p>malasia tour</p>
+				<hr>-->
+			<h4>GUIDELINES FOR UG/PG PROJECT REPORT PREPARATION</h4><hr>
+			<p>To Download Intermediate Dummy Admit Card </p>
+			<p>NAAC self study report</p>
+			<p>antiragging report</p>
+			<h4>Placement Provides</h4><br>
+			<p>application for break of study</p>
+			<p>procedure for obtaining transcripts</p><hr>
+			<h4>SKILL DEVELOPMENT COURSE REGISTRATION </h4><br>
+			<p>guildelines for internship trainning and summer project report preparation</p><hr>
+			<h4>All EXAM DETAILS</h4>
+			<p>materials to prepare All exams</p>
+			<p>previous year question papers</p>
+			<p>practice test for All exam 2021</p>
+			</marquee>
+			<center><p><font color="blue" style="underline">More Details</p></font></center>
+		</div>
+		</div>
+		<div class="footer">
+  <center>Thank you!! visit again!!<br>Developed by Vivek kumar ( BIT part-III ,Roll No- 901836027 )</center> 
+  </div>
+  
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
